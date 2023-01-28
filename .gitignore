@@ -1,0 +1,7 @@
+# Node shit
+node_modules/
+
+# Binaries
+bin/
+
+# Security shit
