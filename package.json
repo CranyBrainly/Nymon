@@ -1,16 +1,27 @@
 {
   "name": "nymon-bot",
   "version": "1.0.0",
-  "description": "The bot\u001b[Cofficial bot for Crany's Cabin",
-  "main": "bin/index.js",
+  "description": "The bot for Crany's Cabin",
+  "main": "bin/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Crany#6596",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CranyBrainly/Nymon.git"
+  },
+  "author": "CranyBrainly",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CranyBrainly/Nymon/issues"
+  },
+  "homepage": "https://github.com/CranyBrainly/Nymon#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "dotenv": "^16.0.3",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "discord.js": "^14.7.1"
   }
 }

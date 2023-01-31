@@ -1,7 +1,4 @@
-# Node shit
-node_modules/
-
-# Binaries
+.env
+vscode/
 bin/
-
-# Security shit
+node_modules/
